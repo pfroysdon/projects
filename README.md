@@ -3,7 +3,10 @@
 -----------------------------------------------------------------------------------
 
 # Project Overview
-This repository is a collection of projects that were part of my masters or PhD research, or simply a hobby interest.  **Most projects require a password to access the source code**, while others are free and open to the public.
+This repository is a **collection of projects from my MS & PhD research, and hobby interests**.  
+
+
+**Most projects require a password to access the source code**, while others are free and open to the public.
 
 Note: This repository is a **work in progress,** some projects are better documented than others.  I will clean this up as I have time to do so.
 
