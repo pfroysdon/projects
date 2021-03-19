@@ -11,7 +11,7 @@ Note: **Most projects require a password to access the source code**, while othe
 
 # Aerospace
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/media/aircraft_design_toolbox2.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/figures/aircraft_design_toolbox2.png">
 </p>
 
 This repo is a collection of tools from my **masters research and publications** on blended-wing-body (BWB) aircraft:
@@ -29,7 +29,7 @@ This repo is a collection of tools from my **masters research and publications**
 
 # Applied Math
 <p align="center">
-	<img width="500" img src="https://github.com/pfroysdon/projects/blob/main/media/ILP_Lite_Main.png">
+	<img width="500" img src="https://github.com/pfroysdon/projects/blob/main/figures/ILP_Lite_Main.png">
 </p>
 
 This repo is a collection of tools from **personal and Ph.D. research in mathematics and machine learning**:
@@ -42,7 +42,7 @@ This repo is a collection of tools from **personal and Ph.D. research in mathema
 
 # Navigation
 <p align="center">
-	<img width="500" img src="https://github.com/pfroysdon/projects/blob/main/media/navigation_toolbox2.png">
+	<img width="500" img src="https://github.com/pfroysdon/projects/blob/main/figures/navigation_toolbox2.png">
 </p>
 
 This repo is a collection of tools from my **Ph.D. research and publications**:
