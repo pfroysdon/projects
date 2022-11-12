@@ -84,5 +84,6 @@ This repo is a collection of random projects:
 
 # Watchmaker
 This repo is a collection of tools for **watchmakers**:
-- [**Beat Rate**](https://github.com/pfroysdon/projects/blob/main/watchmaker/BeatRate) this tool uses recorded audio of a mechanical watch to determine the beat rate and phase of the balance.  Beat error results in a watch running fast or slow.  This enables the precise adjustment of a mechanical watch to reduce beat error. 
+- [**Beat Rate**](https://github.com/pfroysdon/projects/blob/main/watchmaker/beat_rate) this tool uses recorded audio of a mechanical watch to determine the beat rate and phase of the balance.  Beat error results in a watch running fast or slow.  This enables the precise adjustment of a mechanical watch to reduce beat error. 
 - [**Guilloche CAD/CAM**](https://github.com/pfroysdon/projects/blob/main/watchmaker/guilloche) this toolbox generates complex geometric patterns for wrist watch dials, and then generates the tool paths and g-code (machine code) for use on a CNC mill.
+- [**Hairspring Calculations**](https://github.com/pfroysdon/projects/blob/main/watchmaker/hairspring) This project contains a complete report of the equations, derivations and unit conversion to calculate the length of a hairspring for any material, thickness, and height.  A spreadsheet "calculator" is also provided, to automatically calculate the length given a few input parameters.
