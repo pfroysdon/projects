@@ -57,9 +57,7 @@ Below are just one of many trajectory examples.
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/applied_math/jpdaf/results/JPDAF_results_update4_Figure_2.jpg">
 </p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/applied_math/jpdaf/results/Baro_Alt_Results_Figure_3.jpg">
-</p>
+
 
 # References
 References are available [here](https://github.com/pfroysdon/projects/blob/main/applied_math/jpdaf/references)
