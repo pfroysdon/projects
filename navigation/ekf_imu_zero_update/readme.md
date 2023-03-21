@@ -58,7 +58,7 @@ Below are just one of many trajectory examples.
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_imu_zero_update/results/ekf_imu_zupt_Figure_2.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_imu_zero_update/results/ekf_imu_zupt_Figure_3.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_imu_zero_update/results/ekf_imu_zupt_Figure_3.jpg">
 </p>
 
 # References
