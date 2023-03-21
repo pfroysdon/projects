@@ -1,4 +1,4 @@
-# EKF for INS with zero-updates
+# EKF for IMU with zero-updates
 
 -----------------------------------------------------------------------------------
 
@@ -45,20 +45,20 @@ Some examples below.
 "R_a_b" Describes a rotation matrix from frame "a" (latex subscript _a) to frame "b" (latex superscript ^b).
 
 # Technial Note
-The technical note I co-authored is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/ekf_in_zero_update/tech_note)
+The technical note I co-authored is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/ekf_imu_zero_update/tech_note)
 
 
 # Results
 Below are just one of many trajectory examples.
 
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_in_zero_update/results/EKF_INS_zupt_Figure_1.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_imu_zero_update/results/EKF_INS_zupt_Figure_1.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_in_zero_update/results/EKF_INS_zupt_Figure_2.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_imu_zero_update/results/EKF_INS_zupt_Figure_2.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_in_zero_update/results/EKF_INS_zupt_Figure_3.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_imu_zero_update/results/EKF_INS_zupt_Figure_3.png">
 </p>
 
 # References
