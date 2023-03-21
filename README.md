@@ -14,22 +14,27 @@ Note: **Most projects require a password to access the source code**, while othe
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/figures/aircraft_design_toolbox2.png">
 </p>
 
+## Simulation and Analysis
 This repo is a collection of tools from my **masters research and publications** on blended-wing-body (BWB) aircraft:
-- [**3 degrees-of-freedom (DOF) aerial decellerator**](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof) (parachute) used to simulate a parachute recovery footprint given an initial altitude, airspeed and wind conditions.
-- [**6 DOF flight simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof) used for analyzing flight profiles and peformance of any aircraft.
+- [**3 Degrees-of-Freedom (DOF) Aerial Decellerator**](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof) (parachute) used to simulate a parachute recovery footprint given an initial altitude, airspeed and wind conditions.
+- [**6 DOF Flight Simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof) used for analyzing flight profiles and peformance of any aircraft.
 - [**6 DOF Rocket Simulation**](https://github.com/pfroysdon/projects/blob/main/aerospace/rocket_6dof) used for simulating flight profiles and peformance of any rocket.
 - [**6 DOF Missile Intercept Simulation**](https://github.com/pfroysdon/projects/blob/main/aerospace/missile_intercept_6dof) used for simulating flight profiles and peformance of missiles.
 - [**6 DOF Non-Linear Flight Simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/nonlinear_6dof) used for simulating nonlinear flight profiles.
 - [**6 DOF Linear-Trim Flight Simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/linear_trim) used for simulating linear trim state for a given flight condition.
 - [**6 DOF formation-flight simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/formation_flight_6dof) used for analyzing flight profiles and peformance of formation flight of multiple aircraft.
 - [**Aero Analysis Spreadsheet**](https://github.com/pfroysdon/projects/blob/main/aerospace/aero_analysis_spreadsheet) is a complete aircraft design speadsheet including drag build-up, take-off analysis, structures analysis, turn performance, glide performance, and a complete aero-coefficient comparison to other aircraft.
-- [**Antenna Tracker (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/aerospace/antenna_tracker) is a tool to generate both simulated and realtime azimuth and elevation servo commands for a narrow beam antenna gimbal to track an aircraft.
+- [**AVL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/avl_batch) performs a batch analysis of aero coefficients, using AVL, for use in a 6DOF sim.
+- [**XFOIL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/xfoil_batch) performs a batch analysis of aero coefficients, using XFOIL, for use in a 6DOF sim.
+
+
+## Real-time Software
 - [**Autopilot - Classical Control Theory (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/aerospace/autopilot_classical) is real-time embedded software for guidance and control of a fixed-wing aircraft (standard wing, delta, flying wing), Helicopters, and multi-copters (bi, tri, quad, hexa, octa) using classical control theory.
 - [**Autopilot - Modern Control Theory (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/aerospace/autopilot_modern) is real-time embedded software for guidance and control of a fixed-wing aircraft (standard wing, delta, or flying wing), using modern nonlinear backstepping control theory.
-- [**AVL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/avl_batch) performs a batch analysis of aero coefficients, using AVL, for use in a 6DOF sim.
 - [**Camera Gimbal (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/aerospace/camera_gimbal) is real-time embedded software to control a 2 or 3-axis camera stabalization gimbal.
+- [**Antenna Tracker (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/aerospace/antenna_tracker) is a tool to generate both simulated and realtime azimuth and elevation servo commands for a narrow beam antenna gimbal to track an aircraft.
 - [**On-screen Display (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/aerospace/on_screen_display) is real-time embedded software used to display real-time flight parameters to a heads-up-display.
-- [**XFOIL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/xfoil_batch) performs a batch analysis of aero coefficients, using XFOIL, for use in a 6DOF sim.
+
 
 
 # Applied Math
@@ -51,6 +56,8 @@ This repo is a collection of tools from **personal and Ph.D. research in mathema
 </p>
 
 This repo is a collection of tools from my **Ph.D. research and publications**:
+
+## Simulation and Analysis
 - [**AHRS State Estimation**](https://github.com/pfroysdon/projects/blob/main/navigation/ahrs_state_estimation) is a complete implementation of an attitude heading and reference system.
 - [**Allan Variance**](https://github.com/pfroysdon/projects/blob/main/navigation/allan_variance) is a complete implementation of an Allan-Variance analysis.
 - [**Baro Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_propagation) is a complete implementation of a baro-altitude temporal propagation algorithm.
@@ -58,10 +65,6 @@ This repo is a collection of tools from my **Ph.D. research and publications**:
 - [**CRT LSS Nav (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/navigation/crt) is a complete GPS-aided INS nav that implements a *state-of-the-art full-nonlinear optimal Bayesian navigation system*. This system is highly flexible with selectable states (GPS loosely-coupled, GPS tightly-coupled, GPS single-differencing, GPS double-differencing, baro-aiding), selectable initialization modes, selectable mechanization (NED, wander-azimuthm, ECEF, ECI), and IMU errros (bias, scale factor, quantiization)
 - [**Trajectory Smoother**](https://github.com/pfroysdon/projects/blob/main/navigation/trajectory_smoother) this tool performs a full nonlinear optimization to smooth a trajectory using INS and GPS to an accuracy of 1 meter in position.
 - [**Trajectory Smoother with Integers**](https://github.com/pfroysdon/projects/blob/main/navigation/trajectory_smoother_integers) this tool performs a full nonlinear optimization to smooth a trajectory using INS and L1/L2 GPS to an *accuracy of 1 centimeter* in position.  *This is used for generating ground-truth in my scientific publications.*
-- [**Data Acquisition System**](https://github.com/pfroysdon/projects/blob/main/navigation/daq) is a complete implementation of data acquisition system with GPS, IMU, Mag, and 20 A2D channels.
-- [**Data Parser CRT**](https://github.com/pfroysdon/projects/blob/main/navigation/parser_crt) parses the binary messages generated from real-time CRT navigation system.
-- [**Data Parser NovAtel**](https://github.com/pfroysdon/projects/blob/main/navigation/parser_novatel) parses the binary messages generated from a real-time NovAtel GPS system.
-- [**Data Parser uBlox**](https://github.com/pfroysdon/projects/blob/main/navigation/parser_ublox) parses the binary messages generated from a real-time uBlox GPS system.
 - [**EKF GPS**](https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps) is a complete implementation of an extended Kalman filter (EKF) for a GPS receiver with selectable 5, 8, and 11-states.
 - [**EKF GPS INS**](https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins) is a complete implementation of an EKF for a GPS-aided inertial navigation system (INS).  This system is highly flexible with selectable states (GPS loosely-coupled, GPS tightly-coupled, GPS single-differencing, GPS double-differencing, baro-aiding), selectable initialization modes, selectable mechanization (NED, wander-azimuthm, ECEF, ECI), and IMU errros (bias, scale factor, quantiization).
 - [**EKF IMU zero-update**](https://github.com/pfroysdon/projects/blob/main/navigation/ekf_imu_zero_update) is a complete implementation of an EKF performing zero-updates (velocity or angular rate) of an IMU.  This is used to evaluate the real-time performance of IMU accel-bias and gyro-bias parameters.
@@ -76,9 +79,19 @@ This repo is a collection of tools from my **Ph.D. research and publications**:
 - [**Mag Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/mag_temporal_propagation) is a complete implementation of a 3-axis magnetometer temporal propagation.
 - [**Monte Carlo**](https://github.com/pfroysdon/projects/blob/main/navigation/monte_carlo) is a complete MonteCarlo analysis toolbox for evaluating EKF and CRT performance. 
 - [**ReFrame GUI**](https://github.com/pfroysdon/projects/blob/main/navigation/reframe) is a GUI to load attitude data from a .CSV and transform the reference frame from NED to ECEF or ECI.  This is used for visual inspection of robotics data with an unknown reference frame definition.
-- [**RTK**](https://github.com/pfroysdon/projects/blob/main/navigation/rtk) is a complete implementation of a real-time kinematic GPS positioning system using both a base station and rover for 1 cm level positioning.
+
 - [**Signal Generator**](https://github.com/pfroysdon/projects/blob/main/navigation/signal_generator) is a complete implementation of a 3DOF/6DOF trajectory generator and a signal generator for several sensors (GPS, IMU, baro, mag, sonar, radar, and signals of opportunity).
 - [**3DOF/6DOF Trajectory Generator**](https://github.com/pfroysdon/projects/blob/main/navigation/tragetory_generator) is a complete implementation of a trajectory generator for both air and land vehicles.  This tool implements both a kinematics model capable of any trajectory, and an F-16 6DOF model capable of advanced aerial profiles with realistic autopilot feed-back loops (this uses the NASA F-16 6DOF model parameters).
+
+## Data Parsers
+- [**Data Parser CRT**](https://github.com/pfroysdon/projects/blob/main/navigation/parser_crt) parses the binary messages generated from real-time CRT navigation system.
+- [**Data Parser NovAtel**](https://github.com/pfroysdon/projects/blob/main/navigation/parser_novatel) parses the binary messages generated from a real-time NovAtel GPS system.
+- [**Data Parser uBlox**](https://github.com/pfroysdon/projects/blob/main/navigation/parser_ublox) parses the binary messages generated from a real-time uBlox GPS system.
+
+## Real-time Software
+- [**CRT LSS Nav (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/navigation/crt) is a complete GPS-aided INS nav that implements a *state-of-the-art full-nonlinear optimal Bayesian navigation system*. This system is highly flexible with selectable states (GPS loosely-coupled, GPS tightly-coupled, GPS single-differencing, GPS double-differencing, baro-aiding), selectable initialization modes, selectable mechanization (NED, wander-azimuthm, ECEF, ECI), and IMU errros (bias, scale factor, quantiization)
+- [**Data Acquisition System**](https://github.com/pfroysdon/projects/blob/main/navigation/daq) is a complete implementation of data acquisition system with GPS, IMU, Mag, and 20 A2D channels.
+- [**RTK**](https://github.com/pfroysdon/projects/blob/main/navigation/rtk) is a complete implementation of a real-time kinematic GPS positioning system using both a base station and rover for 1 cm level positioning.
 
 
 # Musings
