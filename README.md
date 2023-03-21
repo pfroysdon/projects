@@ -65,8 +65,8 @@ This repo is a collection of tools from my **Ph.D. research and publications**:
 - [**IMU Divergence**](https://github.com/pfroysdon/projects/blob/main/navigation/imu_divergence) evaluates the divergence and covariance of several different grades of IMU's.
 - [**INS Alignment**](https://github.com/pfroysdon/projects/blob/main/navigation/ins_alignment) is a complete implementation of an INS alignment.
 - [**INS Error Comparison**](https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_comp) evaluates the errors of several different grades of IMU's.
-- [**INS Error Sensitivity**](https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sens) evaluates the error sensitivity of several different grades of IMU's given a trajectory.
-- [**INS Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/ins_temporal_prop) is a complete implementation of an INS temporal propagation algorithm in with selectable mechanization (NED, wander-azimuthm, ECEF, ECI).
+- [**INS Error Sensitivity**](https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity) evaluates the error sensitivity of several different grades of IMU's given a trajectory.
+- [**INS Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/ins_temporal_propagation) is a complete implementation of an INS temporal propagation algorithm in with selectable mechanization (NED, wander-azimuthm, ECEF, ECI).
 - [**Mag Calibration**](https://github.com/pfroysdon/projects/blob/main/navigation/mag_cal) is a complete implementation of a 3-axis magnetometer calibration.
 - [**Mag Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/mag_temporal_prop) is a complete implementation of a 3-axis magnetometer temporal propagation.
 - [**Monte Carlo**](https://github.com/pfroysdon/projects/blob/main/navigation/monte_carlo) is a complete MonteCarlo analysis toolbox for evaluating EKF and CRT performance. 
