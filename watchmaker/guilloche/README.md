@@ -6,10 +6,10 @@
 
 This toolbox generates complex geometric patterns for wrist watch dials, then simulates the results, then generates the tool paths and g-code (machine code) for use on a CNC mill.
 
- - The code is in the "matlab" directory.
- - g-code is in the "nc_files" directory.
- - Simulation results are in the "results" directory.
- - Brass plate examples of the g-code used on a 3-axis CNC mill are in the "photos" directory.
+ - The matlab code is located [here](https://github.com/pfroysdon/projects/blob/main/watchmaker/guilloche/matlab).
+ - g-code is located [here](https://github.com/pfroysdon/projects/blob/main/watchmaker/guilloche/nc_files).
+ - Simulation results are located [here](https://github.com/pfroysdon/projects/blob/main/watchmaker/guilloche/results).
+ - Brass plate examples of the g-code used on a 3-axis CNC mill are located [here](https://github.com/pfroysdon/projects/blob/main/watchmaker/guilloche/photos).
 
 
 # Results
