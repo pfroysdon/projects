@@ -32,7 +32,7 @@ If you are not sure of what settings to use, leave as default!  The default valu
 The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/applied_math/ofdm/tech_note)
 
 # Results
-Below are just one of many trajectory examples.
+Below are just one of many examples.
 
 Original Photo
 <p align="center">
