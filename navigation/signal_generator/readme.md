@@ -43,7 +43,7 @@ The main configuration file is located in the root directory,  labeled "CONFIG_S
 
 Several pre-defined trajectories and sensor models (e.g. IMU, Mag) are  selectable from this file.  You can add additional models in their  respective function files.  
 
-## Example 1: 
+### Example 1: 
 To add a new trajectory, open "utilities/preDef/preDef_trajectory.m",  add a new "case" number and your trajectory definitions.  This new  case number will now be selectable in the "CONFIG_SignalGen.m". Make sure that you follow the format and variable names in the already defined in "preDef_trajectory.m", e.g. 2D (car) trajectories must use "segDef_car", 3D (plane or F16) trajectories must use "segDef_plane" or "segDef_f16". 
 
 Note: 
@@ -51,10 +51,10 @@ Note:
 	- "segDef_plane" models 3D kinematics.
 	- "segDef_f16" models 3D kinematics with autopilot feedback control (for smooth transitions between flight segments).
 
-# Example 2: 
+### Example 2: 
 To add a new IMU, open "utilities/preDef/preDef_IMU.m", add a new  "case" number and your IMU definitions.  This new case number will  now be selectable in the "CONFIG_SignalGen.m".  Make sure that you follow the format and variable names in the already defined in "preDef_IMU.m"  
 
-## Example 3:  
+### Example 3:  
 To run the "MAIN_SignalGen.m" file.  Select your options "CONFIG_SignalGen.m", then press "F5". This will generate the trajectory  data, run the IMU/ GPS/ MAG/ Altimeter, etc. models, and plot the results. 
 
 All saved data (.mat, .doc, .jpg, .fig, etc.) from the signal generator 
