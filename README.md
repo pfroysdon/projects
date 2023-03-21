@@ -34,7 +34,7 @@ This repo is a collection of tools from my **masters research and publications**
 
 This repo is a collection of tools from **personal and Ph.D. research in mathematics and machine learning**:
 - [**Cascaded AML**](https://github.com/pfroysdon/projects/blob/main/applied_math/cascaded_aml) performs an adversarial machine learning (AML) analysis using a cascaded algorithm.
-- [**ilpLite**](https://github.com/pfroysdon/projects/blob/main/applied_math/ilpLite) is a complete implementation of integer linear programming for network analysis.
+- [**ilpLite**](https://github.com/pfroysdon/projects/blob/main/applied_math/ilp_lite) is a complete implementation of integer linear programming for network analysis.
 - [**JPDAF**](https://github.com/pfroysdon/projects/blob/main/applied_math/jpdaf) is a complete implementation of a joint-probability data-association filter (JPDAF); basically a cascaded EKF for object tracking.
 - [**Network Flow**](https://github.com/pfroysdon/projects/blob/main/applied_math/network_flow) performs a network flow anaysis using ilpLite.
 - [**OFDM**](https://github.com/pfroysdon/projects/blob/main/applied_math/ofdm) is an advanced sim for othogonal frequency division multiplexing.
