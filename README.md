@@ -15,7 +15,8 @@ Note: **Most projects require a password to access the source code**, while othe
 </p>
 
 ## Simulation and Analysis
-This repo is a collection of tools from my **masters research and publications** on blended-wing-body (BWB) aircraft:
+This repo is a collection of tools from my **masters and Ph.D. research and publications** on blended-wing-body (BWB) aircraft:
+- [**Aero Analysis Spreadsheet**](https://github.com/pfroysdon/projects/blob/main/aerospace/aero_analysis_spreadsheet) is a complete aircraft design speadsheet including drag build-up, take-off analysis, structures analysis, turn performance, glide performance, and a complete aero-coefficient comparison to other aircraft.
 - [**3 Degrees-of-Freedom (DOF) Aerial Decellerator**](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof) (parachute) used to simulate a parachute recovery footprint given an initial altitude, airspeed and wind conditions.
 - [**6 DOF Flight Simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof) used for analyzing flight profiles and peformance of any aircraft.
 - [**6 DOF Rocket Simulation**](https://github.com/pfroysdon/projects/blob/main/aerospace/rocket_6dof) used for simulating flight profiles and peformance of any rocket.
@@ -23,7 +24,6 @@ This repo is a collection of tools from my **masters research and publications**
 - [**6 DOF Non-Linear Flight Simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/nonlinear_6dof) used for simulating nonlinear flight profiles.
 - [**6 DOF Linear-Trim Flight Simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/linear_trim) used for simulating linear trim state for a given flight condition.
 - [**6 DOF formation-flight simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/formation_flight_6dof) used for analyzing flight profiles and peformance of formation flight of multiple aircraft.
-- [**Aero Analysis Spreadsheet**](https://github.com/pfroysdon/projects/blob/main/aerospace/aero_analysis_spreadsheet) is a complete aircraft design speadsheet including drag build-up, take-off analysis, structures analysis, turn performance, glide performance, and a complete aero-coefficient comparison to other aircraft.
 - [**AVL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/avl_batch) performs a batch analysis of aero coefficients, using AVL, for use in a 6DOF sim.
 - [**XFOIL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/xfoil_batch) performs a batch analysis of aero coefficients, using XFOIL, for use in a 6DOF sim.
 
