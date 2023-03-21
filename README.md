@@ -22,9 +22,9 @@ This repo is a collection of tools from my **masters and Ph.D. research and publ
 - [**6 DOF Flight Simulator - Nonlinear**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_nonlinear) implements model predictive control (MPC) used for simulating nonlinear flight profiles.
 - [**6 DOF Rocket Simulation**](https://github.com/pfroysdon/projects/blob/main/aerospace/rocket_6dof) used for simulating flight profiles and peformance of any rocket.
 - [**6 DOF Missile Intercept Simulation**](https://github.com/pfroysdon/projects/blob/main/aerospace/missile_intercept_6dof) used for simulating flight profiles and peformance of missiles.
-- [**6 DOF Trim Flight Simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/trim_6dof) used for simulating linear trim state for a given flight condition.
-- [**6 DOF formation-flight simulator - Linear**](https://github.com/pfroysdon/projects/blob/main/aerospace/formation_flight_6dof_linear) used for analyzing flight profiles and peformance of formation flight of multiple aircraft.
-- [**6 DOF formation-flight simulator - Nonlinear**](https://github.com/pfroysdon/projects/blob/main/aerospace/formation_flight_6dof_nonlinear) used for analyzing flight profiles and peformance of formation flight of multiple aircraft.
+- [**6 DOF Trim-Condition Flight Simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/trim_6dof) used for simulating linear trim state for a given flight condition.
+- [**6 DOF Formation-Flight Simulator - Linear**](https://github.com/pfroysdon/projects/blob/main/aerospace/formation_flight_6dof_linear) used for analyzing flight profiles and peformance of formation flight of multiple aircraft.
+- [**6 DOF Formation-Flight Simulator - Nonlinear**](https://github.com/pfroysdon/projects/blob/main/aerospace/formation_flight_6dof_nonlinear) used for analyzing flight profiles and peformance of formation flight of multiple aircraft.
 - [**6 DOF Flight Sim with Command Filtered Backstepping Controller**](https://github.com/pfroysdon/projects/blob/main/aerospace/backstepping_6dof_nonlinear) implements modern control theory with full-nonlinear command filtered backstepping.
 - [**AVL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/avl_batch) performs a batch analysis of aero coefficients, using AVL, for use in a 6DOF sim.
 - [**XFOIL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/xfoil_batch) performs a batch analysis of aero coefficients, using XFOIL, for use in a 6DOF sim.
