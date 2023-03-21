@@ -72,8 +72,8 @@ This repo is a collection of tools from my **Ph.D. research and publications**:
 - [**Monte Carlo**](https://github.com/pfroysdon/projects/blob/main/navigation/monte_carlo) is a complete MonteCarlo analysis toolbox for evaluating EKF and CRT performance. 
 - [**ReFrame GUI**](https://github.com/pfroysdon/projects/blob/main/navigation/reframe) is a GUI to load attitude data from a .CSV and transform the reference frame from NED to ECEF or ECI.  This is used for visual inspection of robotics data with an unknown reference frame definition.
 - [**RTK**](https://github.com/pfroysdon/projects/blob/main/navigation/rtk) is a complete implementation of a real-time kinematic GPS positioning system using both a base station and rover for 1 cm level positioning.
-- [**Signal Generator**](https://github.com/pfroysdon/projects/blob/main/navigation/signal_gen) is a complete implementation of a 3DOF/6DOF trajectory generator and a signal generator for several sensors (GPS, IMU, baro, mag, sonar, radar, and signals of opportunity).
-- [**3DOF/6DOF Trajectory Generator**](https://github.com/pfroysdon/projects/blob/main/navigation/tragetory_gen) is a complete implementation of a trajectory generator for both air and land vehicles.  This tool implements both a kinematics model capable of any trajectory, and an F-16 6DOF model capable of advanced aerial profiles with realistic autopilot feed-back loops (this uses the NASA F-16 6DOF model parameters).
+- [**Signal Generator**](https://github.com/pfroysdon/projects/blob/main/navigation/signal_generator) is a complete implementation of a 3DOF/6DOF trajectory generator and a signal generator for several sensors (GPS, IMU, baro, mag, sonar, radar, and signals of opportunity).
+- [**3DOF/6DOF Trajectory Generator**](https://github.com/pfroysdon/projects/blob/main/navigation/tragetory_generator) is a complete implementation of a trajectory generator for both air and land vehicles.  This tool implements both a kinematics model capable of any trajectory, and an F-16 6DOF model capable of advanced aerial profiles with realistic autopilot feed-back loops (this uses the NASA F-16 6DOF model parameters).
 
 
 # Musings
