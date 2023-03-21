@@ -46,9 +46,9 @@ This repo is a collection of tools from **personal and Ph.D. research in mathema
 </p>
 
 This repo is a collection of tools from my **Ph.D. research and publications**:
-- [**AHRS State Estimation**](https://github.com/pfroysdon/projects/blob/main/navigation/ahrs) is a complete implementation of an attitude heading and reference system.
+- [**AHRS State Estimation**](https://github.com/pfroysdon/projects/blob/main/navigation/ahrs_state_estimation) is a complete implementation of an attitude heading and reference system.
 - [**Allan Variance**](https://github.com/pfroysdon/projects/blob/main/navigation/allan_variance) is a complete implementation of an Allan-Variance analysis.
-- [**Baro Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_prop) is a complete implementation of a baro-altitude temporal propagation algorithm.
+- [**Baro Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_propagation) is a complete implementation of a baro-altitude temporal propagation algorithm.
 - [**Covariance Analysis**](https://github.com/pfroysdon/projects/blob/main/navigation/covariance) is a complete implementation of a covariance analysis to select parameters to estimate in a state estimation filter.
 - [**CRT LSS Nav (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/navigation/crt) is a complete GPS-aided INS nav that implements a *state-of-the-art full-nonlinear optimal Bayesian navigation system*. This system is highly flexible with selectable states (GPS loosely-coupled, GPS tightly-coupled, GPS single-differencing, GPS double-differencing, baro-aiding), selectable initialization modes, selectable mechanization (NED, wander-azimuthm, ECEF, ECI), and IMU errros (bias, scale factor, quantiization)
 - [**Trajectory Smoother**](https://github.com/pfroysdon/projects/blob/main/navigation/trajectory_smoother) this tool performs a full nonlinear optimization to smooth a trajectory using INS and GPS to an accuracy of 1 meter in position.
