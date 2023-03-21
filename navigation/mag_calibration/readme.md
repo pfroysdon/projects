@@ -48,25 +48,25 @@ The technical note is available [here](https://github.com/pfroysdon/projects/blo
 Below are just one of many trajectory examples.
 
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Figure_1.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Results_Figure_1.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Figure_2.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Results_Figure_2.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Figure_3.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Results_Figure_3.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Figure_4.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Results_Figure_4.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Figure_5.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Results_Figure_5.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Figure_6.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Results_Figure_6.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Figure_7.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/mag_calibration/results/Mag_Cal_Results_Figure_7.png">
 </p>
 
 
