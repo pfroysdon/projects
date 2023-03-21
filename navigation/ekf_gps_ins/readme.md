@@ -1,11 +1,39 @@
-# Barometric pressure temporal propagation
+# EKF for GPS-aided INS
 
 -----------------------------------------------------------------------------------
 
 # Introduction
-The "Barometric pressure temporal propagation toolbox" uses real-time C++ functions, translated to Matlab, for simulation and post-processing using either real (recorded) data or synthetic data. The functions implemented are commonly used in autopilots and navigation systems.
+The "EKF GPS INS toolbox" uses real-time C++ functions, translated to Matlab, for simulation and post-processing using either real (recorded) data or synthetic data. The functions implemented are commonly used in navigation systems.
 
-The demo script demonstrates use of barometric pressure data to calculate altitude.
+This toolbox enables the design and evaluation of various EKF State Estimation methods. It conatins all necessary functions to read raw IMU & GPS data.  EKF state vectors are estimated, and position, velocity, attitude estimates are calculted in NED, LLH, ECEF, and ECI reference frames for quick comparison.
+
+Several types of states are modeled and can be aided in a variety of ways.  Below are a summary of the states and measurements.
+
+Description of modeled states:
+- [p]           = 3 pos
+- [p,v]         = 3 pos, 3 vel
+- [p,v,a]       = 3 pos, 3 vel, 3|4 att (euler|quat)
+- [p,v,acc]     = 3 pos, 3 vel, 3 acceleration
+- [...,ba,bg]   = 3 acc bias, 3 gyro bias states
+- [...,bcb,bcd] = GPS RX clock bias & clock drift states
+- [...,bpr]     = 12 GPS range bias states
+- [...,bb]      = 1 baro bias states
+- [...,bm]      = 3 mag bias states
+
+Description of aiding measurements:
+- ZUPT = zero-velocity updates for stationary cases
+- SBAS = SBAS iono or pseudo range corrections
+- LC = loosely-coupled GPS
+	- position (Code)
+	- position & velocity (Code & Doppler)
+	- position (Carrier-Phase)
+- TC = tightly-coupled GPS
+	- position (Code)
+	- position & velocity (Code & Doppler)
+	- position (Carrier-Phase)
+- DD = double-differenced (Code, Doppler, Carrier-Phase)
+- BA = baro altitude
+- MH = magnetic heading
 
 
 # Requirements
@@ -40,22 +68,108 @@ Some examples below.
 
 "R_a_b" Describes a rotation matrix from frame "a" (latex subscript _a) to frame "b" (latex superscript ^b).
 
-
-# Technial Note
-The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_propagation/tech_note)
-
 # Results
 Below are just one of many trajectory examples.
 
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_propagation/results/Baro_Alt_Results_Figure_1.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_1.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_propagation/results/Baro_Alt_Results_Figure_2.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_2.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_propagation/results/Baro_Alt_Results_Figure_3.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_3.png">
 </p>
-
-# References
-References are available [here](https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_propagation/references)
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_4.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_5.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_6.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_7.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_8.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_9.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_10.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_11.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_12.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_13.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_14.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_15.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_16.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_17.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_18.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_19.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_20.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_21.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_22.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_23.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_24.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_25.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_26.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_27.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_28.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_29.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_30.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_31.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_32.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_33.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ekf_gps_ins/results/Complete_mission_Figure_34.png">
+</p>
