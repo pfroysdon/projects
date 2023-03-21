@@ -68,7 +68,7 @@ This repo is a collection of tools from my **Ph.D. research and publications**:
 - [**INS Error Sensitivity**](https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity) evaluates the error sensitivity of several different grades of IMU's given a trajectory.
 - [**INS Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/ins_temporal_propagation) is a complete implementation of an INS temporal propagation algorithm in with selectable mechanization (NED, wander-azimuthm, ECEF, ECI).
 - [**Mag Calibration**](https://github.com/pfroysdon/projects/blob/main/navigation/mag_cal) is a complete implementation of a 3-axis magnetometer calibration.
-- [**Mag Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/mag_temporal_prop) is a complete implementation of a 3-axis magnetometer temporal propagation.
+- [**Mag Temporal Propagation**](https://github.com/pfroysdon/projects/blob/main/navigation/mag_temporal_propagation) is a complete implementation of a 3-axis magnetometer temporal propagation.
 - [**Monte Carlo**](https://github.com/pfroysdon/projects/blob/main/navigation/monte_carlo) is a complete MonteCarlo analysis toolbox for evaluating EKF and CRT performance. 
 - [**ReFrame GUI**](https://github.com/pfroysdon/projects/blob/main/navigation/reframe) is a GUI to load attitude data from a .CSV and transform the reference frame from NED to ECEF or ECI.  This is used for visual inspection of robotics data with an unknown reference frame definition.
 - [**RTK**](https://github.com/pfroysdon/projects/blob/main/navigation/rtk) is a complete implementation of a real-time kinematic GPS positioning system using both a base station and rover for 1 cm level positioning.
