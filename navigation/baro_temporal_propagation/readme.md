@@ -45,6 +45,8 @@ Some examples below.
 The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_propagation/tech_note)
 
 # Results
+Below are just one of many trajectory examples.
+
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/baro_temporal_propagation/results/Baro_Alt_Results_Figure_1.png">
 </p>

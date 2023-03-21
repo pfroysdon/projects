@@ -43,6 +43,8 @@ Some examples below.
 "R_a_b" Describes a rotation matrix from frame "a" (latex subscript _a) to frame "b" (latex superscript ^b).
 
 # Results
+Below are just one of many trajectory examples.
+
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ahrs_state_estimation/results/AHRS_Results_Figure_1.png">
 </p>
