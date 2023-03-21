@@ -92,8 +92,8 @@ This repo is a collection of tools from my **Ph.D. research and publications**:
 
 ## Real-time Software
 - [**CRT LSS Nav (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/navigation/crt) is a complete GPS-aided INS nav that implements a *state-of-the-art full-nonlinear optimal Bayesian navigation system*. This system is highly flexible with selectable states (GPS loosely-coupled, GPS tightly-coupled, GPS single-differencing, GPS double-differencing, baro-aiding), selectable initialization modes, selectable mechanization (NED, wander-azimuthm, ECEF, ECI), and IMU errros (bias, scale factor, quantiization)
-- [**Data Acquisition System**](https://github.com/pfroysdon/projects/blob/main/navigation/daq) is a complete implementation of data acquisition system with GPS, IMU, Mag, and 20 A2D channels.
-- [**RTK**](https://github.com/pfroysdon/projects/blob/main/navigation/rtk) is a complete implementation of a real-time kinematic GPS positioning system using both a base station and rover for 1 cm level positioning.
+- [**Data Acquisition System (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/navigation/daq) is a complete implementation of data acquisition system with GPS, IMU, Mag, and 20 A2D channels.
+- [**RTK (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/navigation/rtk) is a complete implementation of a real-time kinematic GPS positioning system using both a base station and rover for 1 cm level positioning.
 
 
 # Musings
