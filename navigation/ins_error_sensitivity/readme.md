@@ -1,9 +1,11 @@
-# GPS Positioning
+# INS error comparison
 
 -----------------------------------------------------------------------------------
 
 # Introduction
-The "GPS Positioning toolbox" is a software package for the design and  evaluation of various GPS positioning methods and uses real-time C++ functions, translated to Matlab, for simulation and post-processing using either real (recorded) data or synthetic data. It conatins all necessary functions to read raw GPS and SBAS observables, ionosphere corrections, and ephemerides.  GPS Line-of-Sight (LOS) vectors are estimated, and  positioning estimates are performed via Least Squares of the estimated pseudoranges.  Additionally, Differential-GPS (DGPS) calculations can be performed when both Rover and Base Station data is available.  Positioning is then computed from double-differenced measurements. The functions implemented are commonly used in navigation systems.
+The "INS error comparison toolbox" uses real-time C++ functions, translated to Matlab, for simulation and post-processing using either real (recorded) data or synthetic data. The functions implemented are commonly used in navigation systems.
+
+The demo script demonstrates use of 3 different INS mechanizations, and compares the attitude, velocity, and position drift of each.
 
 
 # Requirements
@@ -39,32 +41,31 @@ Some examples below.
 "R_a_b" Describes a rotation matrix from frame "a" (latex subscript _a) to frame "b" (latex superscript ^b).
 
 
-
 # Technial Note
-The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/gps_positioning/tech_note)
+The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity/tech_note)
 
 # Results
 Below are just one of many trajectory examples.
 
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/gps_positioning/results/GPS_Figure_1.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity/results/INS_error_sensitivity_Figure_1.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/gps_positioning/results/GPS_Figure_2.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity/results/INS_error_sensitivity_Figure_2.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/gps_positioning/results/GPS_Figure_3.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity/results/INS_error_sensitivity_Figure_3.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/gps_positioning/results/GPS_Figure_4.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity/results/INS_error_sensitivity_Figure_4.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/gps_positioning/results/GPS_Figure_5.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity/results/INS_error_sensitivity_Figure_5.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/gps_positioning/results/GPS_Figure_6.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity/results/INS_error_sensitivity_Figure_6.png">
 </p>
 
 
 # References
-References are available [here](https://github.com/pfroysdon/projects/blob/main/navigation/gps_positioning/references)
+References are available [here](https://github.com/pfroysdon/projects/blob/main/navigation/ins_error_sensitivity/references)
