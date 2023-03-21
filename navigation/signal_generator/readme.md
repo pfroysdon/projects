@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------------
 
 # Introduction
-The "Signal Generator toolbox" is a comprehensive and very accurate Matlab toolbox for generating aerial and ground trajectories, and then sensor outputs based on thos trajectories.  The generated data is then used to evaluate real-time functions used in autopilots and navigation systems.
+The "Signal Generator toolbox" is a comprehensive and very accurate Matlab toolbox for generating aerial and ground trajectories, and then sensor outputs based on those trajectories.  The generated data is then used to evaluate real-time functions used in autopilots and navigation systems.
 
 High-Fidelity Models which are easily modified for any manufacturer  datasheet: 
 - IMU (3-axis accel, 3-axis gyro)
