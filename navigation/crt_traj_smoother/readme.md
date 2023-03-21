@@ -41,57 +41,57 @@ Some examples below.
 
 
 # Technial Note
-The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/tech_note)
+The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/tech_note)
 
 # Results
 Below are just one of many trajectory examples.
 
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_1.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_1.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_2.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_2.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_3.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_3.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_4.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_4.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_5.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_5.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_6.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_6.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_7.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_7.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_8.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_8.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_9.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_9.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_10.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_10.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_11.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_11.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_12.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_12.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_13.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_13.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_14.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_14.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/results/traj_smoother_int_Figure_15.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/results/traj_smoother_int_Figure_15.png">
 </p>
 
 
 # References
-References are available [here](https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother_integers/references)
+References are available [here](https://github.com/pfroysdon/projects/blob/main/navigation/crt_traj_smoother/references)
