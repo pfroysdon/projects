@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------------
 
 # Introduction
-The "3DOF Decelerator toolbox" is a "from-scratch" Matlab 3DOF simulator to simulate the trajectory of a parachute recovery of an aerial vehicle.  The model assumes a point-mass and uses both a wind-free trajectory as well as a wind-field that varies with altitude according to NASA models.  The aerodynamics of the point mass assume a standard configuration airplane in the veritical orientation, while the parachute aerodynamics assume a 2-stage parachute with equations common in the literature and can either be deployed with a drogue chute first, then the main, or all at once in an "emergency recovery".
+The "3DOF Decelerator toolbox" is a "from-scratch" Matlab 3 degrees of freedom (DOF) simulator to simulate the trajectory of a parachute recovery of an aerial vehicle.  The model assumes a point-mass and uses both a wind-free trajectory as well as a wind-field that varies with altitude according to NASA models.  The aerodynamics of the point mass assume a standard configuration airplane in the veritical orientation, while the parachute aerodynamics assume a 2-stage parachute with equations common in the literature and can either be deployed with a drogue chute first, then the main, or all at once in an "emergency recovery".
 
 # Requirements
 This toolbox was been developed and tested in Matlab 8.6 64-bit on Windows 7 & 10, other versions of both Windows and Matlab 
