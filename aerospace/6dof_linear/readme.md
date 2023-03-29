@@ -1,9 +1,9 @@
-# 6DOF Flight Sim
+# 6DOF Flight Sim - linear equations
 
 -----------------------------------------------------------------------------------
 
 # Introduction
-This "6DOF Flight Simulation toolbox" implements a generic simulation model in Matlab and Simulink that is capable of being modified for various airplanes provided the following assumptions are followed:
+This "6DOF Flight Simulation toolbox" implements a generic 6 degrees of freedom (6DOF) simulation model in Matlab and Simulink that is capable of being modified for various airplanes provided the following assumptions are followed:
     - The simulator is built using English (Imperial) units, because is common in the aircraft industry.
 	- The simulator assumes that the vehicle uses electrical propulsion, thus the mass is fixed (e.g. no fuel flow).
 	- The simulator assumes that a unique dataset for aero, mass, engine and autopilot coefficients are available.
