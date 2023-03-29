@@ -5,6 +5,8 @@
 # Introduction
 The "AVL Batch toolbox" uses Matlab to perform a batch run and optimization of an aircraft design.
 
+For additional information, see the blended wing body (BWB) papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers)
+
 
 # Requirements
 This toolbox was been developed and tested in Matlab 8.6 64-bit on Windows 7 & 10, other versions of both Windows and Matlab 
@@ -74,7 +76,7 @@ AVL Runtime Routines
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/avl_batch/results/AVL_MatLab.JPG">
 </p>
 
-AVL wire-frame vortex-lattice model for the blended wing body (BWB)
+AVL wire-frame vortex-lattice model for the BWB
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/avl_batch/results/AVL_bwb_VLM.jpg">
 </p>

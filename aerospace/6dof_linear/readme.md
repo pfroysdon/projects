@@ -11,7 +11,7 @@
 - Then a computational fluid dynamics (CFD) model was created and a full Navier-Stokes CFD analysis was performed to validate the Vortex-Lattice results collected in AVL.
 - Then a wind tunnel model was 3D printed and tested in a low-speed wind tunnel to gather actual aero coefficients.  
 - Finally a 6DOF simulator was built from scratch, including the autopilot and navigation system.  
-- ***This project was performed by the author alone, took nearly 4 years to complete, and the results were published in several conference and journal papers. See the BWB papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers).***
+- ***This project was performed by the author alone, took nearly 4 years to complete, and the results were published in several conference and journal papers. See the blended wing body (BWB) papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers).***
 
 Several tools were derived from this work. including: 
 - [**Aero Analysis Spreadsheet**](https://github.com/pfroysdon/projects/blob/main/aerospace/aero_analysis_spreadsheet) is a complete aircraft design speadsheet including drag build-up, take-off analysis, structures analysis, turn performance, glide performance, and a complete aero-coefficient comparison to other aircraft.
