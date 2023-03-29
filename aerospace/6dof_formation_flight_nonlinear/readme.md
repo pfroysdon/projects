@@ -1,9 +1,9 @@
-# 6DOF Flight Sim - non-linear equations
+# 6DOF Formation Flight Sim - nonlinear equations
 
 -----------------------------------------------------------------------------------
 
 # Introduction
-This "6DOF Flight Simulation toolbox" implements an advanced 6 degrees of freedom (6DOF) simulation model in Matlab and Simulink using **full-nonlinear optimization for the guidance and control laws (using modern control theory) as well as the optimal non-linear Bayesian state estimation system (more advanced than Kalman filters).**
+This "6DOF Formation Flight Simulation - nonlinear equations toolbox" implements an advanced 6 degrees of freedom (6DOF) simulation model in Matlab and Simulink using **full-nonlinear optimization for the guidance and control laws using modern control theory**, specifically **command filtered backstepping.**
 
 This project is motivated by nonlinear problems which arise from leader-follower flocking, of which we investigate three cases: a leader with constant velocity, a leader with variable velocity, and a leader with variable velocity with fully distributed flocking.  This multi-agent network applies knowledge of each agents' kinematics and neighboring agent kinematics (one-hop and two-hop), to maintain the formation and prevent collisions.  The details are available in the [tech note](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear/tech_note).
 
@@ -48,17 +48,17 @@ The technical note is available [here](https://github.com/pfroysdon/projects/blo
 Below are just some of many trajectory examples.
 
 
-Group converging on a target
+Group converging on a target (leader in red)
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear/results/algo_III_departure_results_3D.gif">
 </p>
 
-Formation converging
+Formation converging (leader in red)
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear/results/algo_I_results_3D.gif">
 </p>
 
-Formation converging while station-keeping with a target
+Formation converging while station-keeping with a target (leader in red)
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear/results/algo_I_departure_results_3D.gif">
 </p>
