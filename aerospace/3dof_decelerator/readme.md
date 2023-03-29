@@ -39,30 +39,30 @@ Some examples below.
 
 
 # Technial Note
-The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decellerator/tech_note)
+The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator/tech_note)
 
 # Results
 Below are just one of many trajectory examples.
 
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decellerator/results/recovery_Figure_1.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator/results/recovery_Figure_1.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decellerator/results/recovery_Figure_2.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator/results/recovery_Figure_2.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decellerator/results/recovery_Figure_3.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator/results/recovery_Figure_3.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decellerator/results/recovery_Figure_4.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator/results/recovery_Figure_4.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decellerator/results/recovery_Figure_5.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator/results/recovery_Figure_5.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decellerator/results/recovery_Figure_6.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator/results/recovery_Figure_6.png">
 </p>
 
 
 # References
-References are available [here](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decellerator/references)
+References are available [here](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator/references)
