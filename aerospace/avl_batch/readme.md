@@ -27,23 +27,18 @@ To run this script you must have the following:
 1. Directories: 
         \airfoils - directory for all reference airfoil .dat files
 2. Files:
-        AVL_sweep.m - main file for run
-        AVL_plot.m - main file for plotting
-        AVL_build_aerodata.m - main file for building the aero deck
-        AVL_geo.m - main file for building the AVL geometry file
-        AVL_opt.m - main file for the optimization routine
-        avl326.exe - main file for analysis
-        run_avl.bat - enables batch run process
-            (created by AVL_sweep.m)
-        avl_run_def.dat - global runtime parameters for each run
-            (created by AVL_sweep.m)
-        'name'.avl - aircraft configuration file
-            (created by AVL_geo.m)
-        'name'.mass - aircraft mass properties file
-            (created by AVL_sweep.m)
-        'name'.run - run parameters file
-            (created by AVL_sweep.m)
-        avl_doc.txt - AVL User Guide (for reference only)
+	- AVL_sweep.m - main file for run
+	- AVL_plot.m - main file for plotting
+	- AVL_build_aerodata.m - main file for building the aero deck
+	- AVL_geo.m - main file for building the AVL geometry file
+	- AVL_opt.m - main file for the optimization routine
+	- avl326.exe - main file for analysis
+	- run_avl.bat - enables batch run process (created by AVL_sweep.m)
+	- avl_run_def.dat - global runtime parameters for each run (created by AVL_sweep.m)
+	- 'name'.avl - aircraft configuration file (created by AVL_geo.m)
+	- 'name'.mass - aircraft mass properties file (created by AVL_sweep.m)
+	- 'name'.run - run parameters file (created by AVL_sweep.m)
+	- avl_doc.txt - AVL User Guide (for reference only)
 
 ## MAIN File
 The main run file is located in the root directory, labeled "MAIN_ ... .m", while user selectable options are located in the "CONFIG_ ... .m".
