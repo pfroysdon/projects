@@ -4,18 +4,27 @@
 
 # Introduction
 
-***This project was an enormous undertaking.  The author designed the airplane from scratch using various aircraft design tools he designed and wrote in Matlab, inclufing batch optimization routines to run XFOIL and AVL to optimize the vehicle layout and control surface design.  Then all of the aero and stibility coefficients, mass properties, and engine coefficients were developed.  Finally a 6DOF simulator was built from scratch, including the autopilot and navigation system.  This project took nearly 2 years and the results were published in several conference and journal papers. See the BWB papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers).***
+***This project was an enormous undertaking, with the following key points***  
+- The author designed the airplane from scratch using various aircraft design tools he designed and wrote in Matlab, including batch optimization routines to run XFOIL and AVL to optimize the vehicle layout and control surface design.  
+- Then all of the aero and stibility coefficients, mass properties, and engine coefficients were developed.  
+- Then a CAD model was designed from the wire-frame models in AVL.
+- Then a computational fluid dynamics (CFD) model was created and a full Navier-Stokes CFD analysis was performed to validate the Vortex-Lattice results collected in AVL.
+- Then a wind tunnel model was 3D printed and tested in a low-speed wind tunnel to gather actual aero coefficients.  
+- Finally a 6DOF simulator was built from scratch, including the autopilot and navigation system.  
+- ***This project was performed by the author alone, took nearly 4 years to complete, and the results were published in several conference and journal papers. See the BWB papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers).***
 
-
-This "6DOF Flight Simulation toolbox" implements a generic 6 degrees of freedom (6DOF) simulation model in Matlab and Simulink that is capable of being modified for various airplanes provided the following assumptions are followed:
-    - The simulator is built using English (Imperial) units, because is common in the aircraft industry.
-	- The simulator assumes that the vehicle uses electrical propulsion, thus the mass is fixed (e.g. no fuel flow).
-	- The simulator assumes that a unique dataset for aero, mass, engine and autopilot coefficients are available.
-	- The simulator does not increase control surface effectiveness with increased throttle.  Typically on propeller driven airplanes, the prop-wash flows over the vertical and horizontal surfaces, increasing their effectivness/ control power.  While this can have a significant effect, no accounting for this is made in the sim.
-	
-The aero coefficients, mass properties, engine coefficients were developed for a flying wing (with winglets) using a combination of XFOIL, AVL and other tools, as described in the [AIAA InfoTech 2011 conference paper](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/tech_note).
-
-
+Several tools were derived from this work. including: 
+- [**Aero Analysis Spreadsheet**](https://github.com/pfroysdon/projects/blob/main/aerospace/aero_analysis_spreadsheet) is a complete aircraft design speadsheet including drag build-up, take-off analysis, structures analysis, turn performance, glide performance, and a complete aero-coefficient comparison to other aircraft.
+- [**3 Degrees-of-Freedom (DOF) Aerial Decelerator**](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator) (parachute) used to simulate a parachute recovery footprint given an initial altitude, airspeed and wind conditions.
+- [**6 DOF Flight Simulator - Linear**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear) implements classic control theory (PIDs) used for analyzing flight profiles and peformance of any aircraft.
+- [**6 DOF Flight Simulator - Nonlinear**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_nonlinear) implements model predictive control (MPC) used for simulating nonlinear flight profiles.
+- [**6 DOF Trim-Condition Flight Simulator**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_trim) used for simulating linear trim state for a given flight condition.
+- [**6 DOF Flight Sim with Command Filtered Backstepping Controller**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_backstepping) implements modern control theory with full-nonlinear command filtered backstepping.
+- [**AVL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/avl_batch) performs a batch analysis of aero coefficients, using AVL, for use in a 6DOF sim.
+- [**XFOIL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/xfoil_batch) performs a batch analysis of aero coefficients, using XFOIL, for use in a 6DOF sim.
+- [**MDO**](https://github.com/pfroysdon/projects/blob/main/aerospace/mdo) performs a multi-disciplinary design optimization of an aircraft design.
+- [**Wind Tunnel Data Analysis**](https://github.com/pfroysdon/projects/blob/main/aerospace/wind_tunnel_analysis) reduces raw wind tunnel data and converts the data into aerodynamic coefficients for a 6DOF flight simulator.
+- [**Flight Data Analysis**](https://github.com/pfroysdon/projects/blob/main/aerospace/post_flight_analysis) reduces raw flight test telemetry and recorded data and converts the data into engineering units and plots the data in figures useful for post flight analysis.
 
 
 # Requirements
