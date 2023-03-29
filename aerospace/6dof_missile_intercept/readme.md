@@ -52,7 +52,7 @@ Below are just one of many trajectory examples.
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_missile_intercept/results/missile_intercept_Figure_5.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_missile_intercept/results/Bmissile_intercept_Figure_7.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_missile_intercept/results/missile_intercept_Figure_7.png">
 </p>
 
 # References
