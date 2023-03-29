@@ -45,10 +45,22 @@ Some examples below.
 The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear/tech_note)
 
 # Results
-Below are just one of many trajectory examples.
+Below are just some of many trajectory examples.
 
+
+Group converging on a target
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear/results/algo_III_departure_results_3D.gif">
+</p>
+
+Formation converging
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear/results/algo_I_results_3D.gif">
+</p>
+
+Formation converging while station-keeping with a target
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear/results/algo_I_departure_results_3D.gif">
 </p>
 
 # References
