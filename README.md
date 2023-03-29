@@ -29,7 +29,8 @@ This repo is a collection of tools from my **masters and Ph.D. research and publ
 - [**AVL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/avl_batch) performs a batch analysis of aero coefficients, using AVL, for use in a 6DOF sim.
 - [**XFOIL batch**](https://github.com/pfroysdon/projects/blob/main/aerospace/xfoil_batch) performs a batch analysis of aero coefficients, using XFOIL, for use in a 6DOF sim.
 - [**MDO**](https://github.com/pfroysdon/projects/blob/main/aerospace/mdo) performs a multi-disciplinary design optimization of an aircraft design.
-
+- [**Wind Tunnel Data Analysis**](https://github.com/pfroysdon/projects/blob/main/aerospace/wind_tunnel_analysis) reduces raw wind tunnel data and converts the data into aerodynamic coefficients for a 6DOF flight simulator.
+- [**Flight Data Analysis**](https://github.com/pfroysdon/projects/blob/main/aerospace/post_flight_analysis) reduces raw flight test telemetry and recorded data and converts the data into engineering units and plots the data in figures useful for post flight analysis.
 
 ## Real-time Software
 - [**Autopilot - Classical Control Theory (Software & GUI)**](https://github.com/pfroysdon/projects/blob/main/aerospace/autopilot_classical) is real-time embedded software for guidance and control of a fixed-wing aircraft (standard wing, delta, flying wing), Helicopters, and multi-copters (bi, tri, quad, hexa, octa) using classical control theory.
