@@ -3,6 +3,10 @@
 -----------------------------------------------------------------------------------
 
 # Introduction
+
+***This project was an enormous undertaking.  The author designed the airplane from scratch using various aircraft design tools he designed and wrote in Matlab, inclufing batch optimization routines to run XFOIL and AVL to optimize the vehicle layout and control surface design.  Then all of the aero and stibility coefficients, mass properties, and engine coefficients were developed.  Finally a 6DOF simulator was built from scratch, including the autopilot and navigation system.  This project took nearly 2 years and the results were published in several conference and journal papers. See the BWB papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers).***
+
+
 This "6DOF Flight Simulation toolbox" implements an advanced 6 degrees of freedom (6DOF) simulation model in Matlab and Simulink using **full-nonlinear optimization for the guidance and control laws (using modern control theory) as well as the optimal non-linear Bayesian state estimation system (more advanced than Kalman filters).**
 
 This 6DOF is capable of being modified for various airplanes provided the following assumptions are followed:
@@ -59,6 +63,16 @@ The technical note is available [here](https://github.com/pfroysdon/projects/blo
 CAD render of the BWB designed by Dr. Paul F. Roysdon
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/results/BWB_concept_render2_20091212.jpg">
+</p>
+
+6DOF animation of a 30 deg bank turn condition followed by a 30 deg pitch up and climb, followed by a return to straight and level flight
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/results/BWB_turn_climb_FlightViz_mod2.gif">
+</p>
+
+6DOF animation of a landing condition with a large wind gust from the side and subsequent controlled recovery to stable flight
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/results/BWB_landing_FlightViz_mod1.gif">
 </p>
 
 # References
