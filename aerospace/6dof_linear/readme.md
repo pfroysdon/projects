@@ -3,6 +3,10 @@
 -----------------------------------------------------------------------------------
 
 # Introduction
+
+***This project was an enormous undertaking.  The author designed the airplane from scratch using various aircraft design tools he designed and wrote in Matlab, inclufing batch optimization routines to run XFOIL and AVL to optimize the vehicle layout and control surface design.  Then all of the aero and stibility coefficients, mass properties, and engine coefficients were developed.  Finally a 6DOF simulator was built from scratch, including the autopilot and navigation system.  This project took nearly 2 years and the results were published in several conference and journal papers. See the BWB papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers).***
+
+
 This "6DOF Flight Simulation toolbox" implements a generic 6 degrees of freedom (6DOF) simulation model in Matlab and Simulink that is capable of being modified for various airplanes provided the following assumptions are followed:
     - The simulator is built using English (Imperial) units, because is common in the aircraft industry.
 	- The simulator assumes that the vehicle uses electrical propulsion, thus the mass is fixed (e.g. no fuel flow).
@@ -11,7 +15,7 @@ This "6DOF Flight Simulation toolbox" implements a generic 6 degrees of freedom 
 	
 The aero coefficients, mass properties, engine coefficients were developed for a flying wing (with winglets) using a combination of XFOIL, AVL and other tools, as described in the [AIAA InfoTech 2011 conference paper](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/tech_note).
 
-**This project was an enormous undertaking.  The author designed the airplane from scratch using various aircraft design tools he deigned and wrote in Matlab, inclufing batch optimization routines to run XFOIL and optimize the vehicle layout and control surface design.  Then all of the aero coefficients, mass properties, engine coefficients were developed.  Finally a 6DOF simulator was built from scratch, including the autopilot and navigation system.  This project took nearly 2 years and the results were published in several conference and journal papers. See the BWB papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers)**
+
 
 
 # Requirements
