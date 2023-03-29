@@ -68,7 +68,7 @@ XFOIL Runtime Routines
 
 Alpha sweep of the MH61 airfoil
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/xfoil_batch/results/XFOIL_MH61_alpha_sweep.jpg">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/xfoil_batch/results/XFOIL_MH61_alpha_sweep.JPG">
 </p>
 
 Lift and Drag polar plots for the MH61 airfoil
