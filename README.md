@@ -17,7 +17,7 @@ Note: **Most projects require a password to access the source code**, while othe
 ## Simulation and Analysis
 This repo is a collection of tools from my **masters and Ph.D. research and publications** on blended-wing-body (BWB) aircraft:
 - [**Aero Analysis Spreadsheet**](https://github.com/pfroysdon/projects/blob/main/aerospace/aero_analysis_spreadsheet) is a complete aircraft design speadsheet including drag build-up, take-off analysis, structures analysis, turn performance, glide performance, and a complete aero-coefficient comparison to other aircraft.
-- [**3 Degrees-of-Freedom (DOF) Aerial Decellerator**](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof) (parachute) used to simulate a parachute recovery footprint given an initial altitude, airspeed and wind conditions.
+- [**3 Degrees-of-Freedom (DOF) Aerial Decelerator**](https://github.com/pfroysdon/projects/blob/main/aerospace/3dof_decelerator) (parachute) used to simulate a parachute recovery footprint given an initial altitude, airspeed and wind conditions.
 - [**6 DOF Flight Simulator - Linear**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear) implements classic control theory (PIDs) used for analyzing flight profiles and peformance of any aircraft.
 - [**6 DOF Flight Simulator - Nonlinear**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_nonlinear) implements model predictive control (MPC) used for simulating nonlinear flight profiles.
 - [**6 DOF Rocket Simulation**](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_rocket) used for simulating flight profiles and peformance of any rocket.
