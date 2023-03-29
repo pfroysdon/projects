@@ -25,7 +25,8 @@ This file performs the following actions:
 
 To run this script you must have the following:
 1. Directories: 
-        \airfoils - directory for all reference airfoil .dat files
+    - \airfoils - directory for all reference airfoil .dat files
+	
 2. Files:
 	- AVL_sweep.m - main file for run
 	- AVL_plot.m - main file for plotting
