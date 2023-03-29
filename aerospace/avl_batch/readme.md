@@ -5,7 +5,7 @@
 # Introduction
 The "AVL Batch toolbox" uses Matlab to perform a batch run and optimization of an aircraft design.
 
-For additional information, see the blended wing body (BWB) papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers)
+**For additional information, see the blended wing body (BWB) papers listed [here](https://github.com/pfroysdon/publications/tree/main/Papers)**
 
 
 # Requirements
