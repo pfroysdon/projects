@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------------
 
 # Introduction
-This "6DOF Flight Simulation toolbox" implements an advanced 6 degrees of freedom (6DOF) simulation model in Matlab and Simulink using **full-nonlinear optimization for the guidance and control laws (using moderin control theory) as well as the optimal non-linear Bayesian state estimation system (more advanced than Kalman filters).**
+This "6DOF Flight Simulation toolbox" implements an advanced 6 degrees of freedom (6DOF) simulation model in Matlab and Simulink using **full-nonlinear optimization for the guidance and control laws (using modern control theory) as well as the optimal non-linear Bayesian state estimation system (more advanced than Kalman filters).**
 
 This 6DOF is capable of being modified for various airplanes provided the following assumptions are followed:
     - The simulator is built using English (Imperial) units, because is common in the aircraft industry.
