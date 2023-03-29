@@ -49,11 +49,12 @@ Some examples below.
 The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/tech_note)
 
 # Results
-Below are just one of many trajectory examples.
-
+6DOF simulator using  Matlab and Simulink for the 6DOF calculations and Flight Gear Flight Sim for the UI
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/results/BWB_FGFS.jpg">
 </p>
+
+CAD render of the BWB designed by Dr. Paul F. Roysdon
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/results/BWB_concept_render2_20091212.jpg">
 </p>
