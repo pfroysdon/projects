@@ -59,15 +59,17 @@ CAD render of the BWB designed by Dr. Paul F. Roysdon
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/results/BWB_concept_render2_20091212.jpg">
 </p>
 
+6DOF animation of a 30 deg bank turn condition followed by a 30 deg pitch up and climb, followed by a return to straight and level flight
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/results/BWB_turn_climb_FlightViz_mod2.gif">
+</p>
+
 6DOF animation of a landing condition with a large wind gust from the side and subsequent controlled recovery to stable flight
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/results/BWB_landing_FlightViz_mod1.gif">
 </p>
 
-6DOF animation of a 30 deg bank turn condition followed by a 30 deg pitch up and climb, followed by a return to straight and level flight
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_linear/results/BWB_landing_FlightViz_mod1.gif">
-</p>
+
 
 
 # References
