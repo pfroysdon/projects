@@ -7,7 +7,8 @@
 </p>
 
 # Introduction
-*** This work was a precursor to the work implemented in the [nonlinear formation flight toolbox](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear)***
+***This work was a precursor to the work implemented in the [nonlinear formation flight toolbox](https://github.com/pfroysdon/projects/blob/main/aerospace/6dof_formation_flight_nonlinear)***
+
 This "6DOF Formation Flight Simulation - linear equations toolbox" implements an advanced 6 degrees of freedom (6DOF) simulation model in Matlab and Simulink, implementing the DATCOM F-16 flight simulation model from scratch.
 
 This project is motivated by a need to model the following methods:
