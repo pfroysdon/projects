@@ -52,10 +52,19 @@ The technical note is available [here](https://github.com/pfroysdon/projects/blo
 Below are just one of many trajectory examples.
 
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/applied_math/jpdaf/results/JPDAF_results_Figure_2e.jpg">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/applied_math/jpdaf/results/JPDAF_tracking_demo4.gif">
 </p>
+
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/applied_math/jpdaf/results/JPDAF_results_update4_Figure_1.jpg">
+</p>
+
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/applied_math/jpdaf/results/JPDAF_results_update4_Figure_2.jpg">
+</p>
+
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/applied_math/jpdaf/results/JPDAF_results_update4_Figure_3.jpg">
 </p>
 
 
