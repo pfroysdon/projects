@@ -19,6 +19,8 @@ The Contemplative Real-Time (CRT) Navigation System and State Estimation Toolbox
 -   Parser: which includes several sub functions to parse real-time data from various navigation systems and GPS receivers, as well as NMEA, NTRIP, RINEX, RTCM, SP3, and others.
 -   Animation & Graphics: which includes trajectory animation for various vehicles (Porsche, Quad-copter, F-16, 747) which can be saved to a .mp4 movie file.  This also includes GPS constellation animations, and the ability to save the trajectories to Google Earth .kml and .kmz files.
   
+
+# Unique Features
 Using nonlinear optimization, CRT Nav can immediately recover from 180 degree yaw misalignment while nearly all other navigation systems will diverge and fail.
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/optimal_yaw.png">
