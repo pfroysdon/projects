@@ -52,63 +52,6 @@ The post-test data parser and data analysis suite makes testing and deployment e
 </p>
 
 
-# Basic Operation
-## Operation
-    Use of the toolbox is quite simple, with default values which work for 
-    most cases.
-
-## Main Run File
-    The main run file is located in the root directory, labeled "MAIN_CRT_Nav.m", and
-    requires input from the user to select the mode(s) of operation, as well 
-    as what items to save upon completion (data, figures, animation, etc.).
-   
-## Example
-    To run the CRT Nav Estimation with synthetic data, you can 
-    "enable" the signal gen by setting "settings.genData = 1;" and "settings.
-    runEst = 1;" located near the top of the "MAIN.m" file.  This will run 
-    the signal gen first, followed by the Encoder-GPS EKF, plotting the 
-    results for both. 
-
-## Signal Gen Comments
-    If you do not enable the signal gen, the software will assume that you 
-    wish to use the previously generated file "signals_data.mat" (located in 
-    the "[root]/data/" directory), which it will load 
-    before running the state estimator.
-
-    If you wish to change the parameters of the sensors (or enable/disable 
-    sensors) you will need to open the signal gen configuration file located 
-    in the "[root]" directory called "CONFIG_SignalGen.m".  The code
-    in this file is well commented, and everything should be self-explanatory.
-
-## State Estimator Comments
-    If you wish to use a different state estimator, you will need to 
-    un-comment the desired function located in the "State Estimation" section
-    of the "MAIN.m" file.
-
-    If you wish to run a state-estimator manually (without running the 
-    "MAIN.m" and associated files) you may do so by opening the desired 
-    state-estimator "[name].m" file located in the "[root]/estimator/" 
-    directory, you will need to manually comment-out the function line at the
-    top of the file, and uncomment the 3 lines within the "test code" section
-    near the top of that file, there-by enabling the "clear" and "load" 
-    commands necessary for operation of the file in manual mode.
-
-    All saved data (.mat, .doc, .jpg, .fig, etc.) from the state estimator 
-    simulations are saved in the "[root]/data" directory.
-
-## Final Note
-    If you are not sure of what settings to use, leave as default!  The 
-    default values are set to run as a "demo" mode, exercising most features 
-    of this toolbox.
-
-
-# References
-This toolbox uses several references, most of which are listed in the files themselves.  However, the primary references are:
-    - J. A. Farrell, "Aided Navigation: GPS with High Rate Sensors", McGraw Hill, 2008.
-    - IS-GPS-200D.
-    - Kayton & Fried, "Aviation Navigation Systems", 1997.
-
-
 # Requirements
 This toolbox was been developed and tested in C/C++ and Matlab 8.6 64-bit on Windows 7 & 10, other versions of both Windows and Matlab may work but are not guaranteed. The following elements are needed in order to use this Toolbox:
 
@@ -127,48 +70,35 @@ Some examples below.
 "R_a_b" Describes a rotation matrix from frame "a" (latex subscript _a) to frame "b" (latex superscript ^b).
 
 
+# References
+This toolbox uses several references, most of which are listed in the files themselves.  However, the primary references are:
+    - J. A. Farrell, "Aided Navigation: GPS with High Rate Sensors", McGraw Hill, 2008.
+    - IS-GPS-200D.
+    - Kayton & Fried, "Aviation Navigation Systems", 1997.
+	
+	
 # Technial Note
 The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/tech_note)
 
 # Results
-Example trajoectory output
+Below is an example trajectory output with high multi-path and GNSS signal errors.  The CRT Nav with LSS outlier detection and removal is able to maintain a converged navigation solution throughout the trajectory, a unique case where most navigation systems completely fail.
 
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_1.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_35.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_2.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_36.png">
+</p>
+
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_26.png">
 </p>
 <p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_3.png">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_27.png">
 </p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_4.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_5.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_6.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_7.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_8.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_9.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_10.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_11.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_12.png">
-</p>
+
+
+
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_13.png">
 </p>
@@ -208,12 +138,7 @@ Example trajoectory output
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_25.png">
 </p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_26.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_27.png">
-</p>
+
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_28.png">
 </p>
@@ -235,13 +160,43 @@ Example trajoectory output
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_34.png">
 </p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_35.png">
-</p>
-<p align="center">
-	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_36.png">
-</p>
 
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_1.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_2.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_3.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_4.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_5.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_6.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_7.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_8.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_9.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_10.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_11.png">
+</p>
+<p align="center">
+	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_12.png">
+</p>
 
 
 # References
