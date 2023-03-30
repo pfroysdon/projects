@@ -3,6 +3,9 @@
 -----------------------------------------------------------------------------------
 
 # Introduction
+
+This code is designed to track multiple targets simultaneously, particularly targets whose paths cross.  Typical trackers will incorrectly switch targets whose paths cross.  However, when you want to track something continuously, e.g., a human in a crowd or a a bird in a flock of birds, then you need Joint Probabilistic Data Association Filter that associates the probability of the tracked object relative to other objects.
+
 This code is a demo that implements multiple target tracking in 2 dimensions. It is inspired by work of Y. Bar-Shalom related to Probabilistic Data Association Filters (PDAF).
 
 1. Generates number of points moving on different trajectories. 
