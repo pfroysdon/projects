@@ -81,7 +81,7 @@ This toolbox uses several references, most of which are listed in the files them
 The technical note is available [here](https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/tech_note)
 
 # Results
-Below is an example trajectory output with high multi-path and GNSS signal errors.  The CRT Nav with LSS outlier detection and removal is able to maintain a converged navigation solution throughout the trajectory, a unique case where most navigation systems completely fail.
+Below is an example **trajectory with high multi-path and GNSS signal errors and drop-outs (for 10's of seconds)**.  The CRT Nav with LSS outlier detection and removal is able to maintain a converged navigation solution throughout the trajectory whereas most navigation systems completely fail.
 
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/navigation/crt_nav/results/CRT_HT_L10_Rho1.35_Dop1.35_Figure_35.png">
