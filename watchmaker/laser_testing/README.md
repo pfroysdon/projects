@@ -12,7 +12,7 @@ This repository contains laser test files and examples for a JPT 50W fiber laser
 # Results
 Below are a few examples.
 
-JPT 50W Laser
+JPT 50W Fiber Laser
 <p align="center">
 	<img width="600" img src="https://github.com/pfroysdon/projects/blob/main/watchmaker/laser_testing/media/IMG_5848.JPG">
 </p>
