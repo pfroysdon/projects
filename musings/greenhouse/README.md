@@ -1,5 +1,8 @@
 # Greenhouse Plans
 -----------------------------------------------------------------------------------
+<p align="center">
+	<img width="500" img src="/greenhouse.JPG">
+</p>
 
 # Introduction
 
